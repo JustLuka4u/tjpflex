@@ -44,8 +44,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.home-page, .about-page{
- padding: 4rem 2rem;
+
+.home-page,
+.about-page {
+    padding: 4rem 2rem;
 }
 
 .home-page .page-writeup h3 {
@@ -116,7 +118,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 4rem 2rem;
-  
+
     margin-bottom: 2%;
 }
 
@@ -132,33 +134,97 @@ nav {
 
 }
 
-.about-img img{
+.about-img img {
     width: 100%;
     height: auto;
     object-fit: contain;
- 
-} 
 
-.about-writeup h2{
- font-family: 'Halant';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 120%;
-color: #041330;
 }
 
-.about-writeup p{
- font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-align: justify;
-letter-spacing: 0.5px;
-max-width: 1440px;
-color: #2E3A53;
+.about-writeup h2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #041330;
 }
+
+.about-writeup p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    max-width: 1440px;
+    color: #2E3A53;
+}
+
+.positon-div {
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem 2rem;
+    height: 100vh;
+}
+
+.position-text{
+    padding: 32px 24px;
+    max-width: 693px;
+    position: absolute;
+    background: #F9FBFF;
+    margin-left: 2%;
+    position: absolute;
+}
+.position-text ul {
+    padding-left: 20px;
+    color: #2E3A53;
+}
+
+.position-text h2{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #041330;
+}
+
+.position-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+    margin: 10px 0 10px 0;
+}
+
+.position-text li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+.position-img{
+    background: url("/images/frame.png");
+    background-size: cover;
+    height: 430px;
+    width: 580px;
+    margin-left: 580px;
+    margin-top: 80px
+}
+
 
 .footer {
     border: 2px solid #155EEF;
@@ -175,7 +241,7 @@ color: #2E3A53;
     margin-right: 2.2rem;
 }
 
-.foot-text > h2 {
+.foot-text>h2 {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
