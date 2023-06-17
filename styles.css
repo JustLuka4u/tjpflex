@@ -217,7 +217,7 @@ nav {
 }
 
 .position-img{
-    background: url("/images/frame.png");
+    background: url("./images/frame.png");
     background-size: cover;
     height: 430px;
     width: 580px;
